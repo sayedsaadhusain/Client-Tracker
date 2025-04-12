@@ -33,9 +33,9 @@ function AddOutreach() {
       animate={{ opacity: 1, y: 0 }}
       className="max-w-2xl mx-auto"
     >
-      <h1 className="text-2xl font-bold text-gray-900 mb-8">
-        Add New Outreach
-      </h1>
+      <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">
+  Add New Outreach
+</h1>
 
       <form
         onSubmit={handleSubmit}
